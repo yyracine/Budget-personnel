@@ -1,0 +1,42 @@
+{
+  "name": "budget-personnel",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Application locale de gestion de budget personnel en FCFA (XOF)",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5173",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4173",
+    "typecheck": "tsc --noEmit --pretty false",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "dexie": "^4.2.0",
+    "jspdf": "^3.0.1",
+    "jspdf-autotable": "^5.0.2",
+    "papaparse": "^5.5.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.0",
+    "read-excel-file": "^6.0.1",
+    "recharts": "^3.10.1",
+    "write-excel-file": "^2.3.10"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/papaparse": "^5.3.16",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "fake-indexeddb": "^6.0.0",
+    "typescript": "^5.7.3",
+    "vite": "^6.1.0",
+    "vitest": "^3.0.5"
+  }
+}

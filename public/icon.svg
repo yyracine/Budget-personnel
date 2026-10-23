@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Budget personnel">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f766e"/>
+      <stop offset="1" stop-color="#0b1220"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <rect x="112" y="150" width="288" height="212" rx="44" fill="#f8fafc" opacity="0.96"/>
+  <path d="M112 222h288" stroke="#0b1220" stroke-width="26" opacity="0.9"/>
+  <circle cx="344" cy="292" r="30" fill="#0f766e"/>
+  <path d="M196 310l44-48 34 30 46-56" fill="none" stroke="#0f766e" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,19 @@
+{
+  "name": "Budget personnel",
+  "short_name": "Budget",
+  "description": "Gestion de budget personnel locale en FCFA : revenus, dépenses, budgets et rapports.",
+  "lang": "fr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#070b12",
+  "theme_color": "#0b1220",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Application locale de gestion de budget personnel en FCFA : revenus, dépenses, budgets, récurrences et rapports."
+    />
+    <meta name="theme-color" content="#0b1220" />
+    <title>Budget personnel — Gestion de budget en FCFA</title>
+    <link rel="icon" type="image/svg+xml" href="./icon.svg" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <script>
+      (function () {
+        try {
+          var pref = localStorage.getItem('budget-theme') || 'system';
+          var dark =
+            pref === 'dark' ||
+            (pref === 'system' &&
+              window.matchMedia('(prefers-color-scheme: dark)').matches);
+          document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      Cette application nécessite JavaScript activé pour fonctionner localement.
+    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

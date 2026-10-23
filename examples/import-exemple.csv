@@ -1,0 +1,8 @@
+date,montant,type,categorie,libelle,note,reference
+05/01/2026,300000,Revenu,Salaire,Salaire de janvier,,SRC-001
+06/01/2026,85000,Dépense,Alimentation,Courses de la semaine,Marché du samedi,SRC-002
+08/01/2026,75000,Dépense,Logement et loyer,Loyer janvier,,SRC-003
+10/01/2026,15000,Dépense,Transport,Carburant,,SRC-004
+15/01/2026,45000,Dépense,Factures et énergie,Facture d'électricité,Relevé mensuel,SRC-005
+20/01/2026,50000,Revenu,Activité indépendante,Prestation conseil,,SRC-006
+28/01/2026,25000,Dépense,Télécommunications et Internet,Forfait Internet,Abonnement mensuel,SRC-007

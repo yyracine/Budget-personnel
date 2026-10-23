@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.freebuff/
+coverage/
+*.log
+test-results/
+playwright-report/
+blob-report/
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
